@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="shark">#202124</color>
+    <color name="shark_light">#2E2F32</color>
     <color name="athens_gray">#e8e9ec</color>
     <color name="tonys_pink">#e49085</color>
     <color name="don_juan">#594645</color>
