@@ -1,8 +1,7 @@
-package com.example.navigationdrawer
+package com.waseefakhtar.gmailnavigationdrawer
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Gravity
 import android.view.MenuItem
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.core.view.GravityCompat

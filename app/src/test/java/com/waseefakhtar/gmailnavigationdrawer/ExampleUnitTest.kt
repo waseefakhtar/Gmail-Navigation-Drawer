@@ -1,4 +1,4 @@
-package com.example.navigationdrawer
+package com.waseefakhtar.gmailnavigationdrawer
 
 import org.junit.Test
 
