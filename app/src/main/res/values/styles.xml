@@ -2,16 +2,25 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-        <item name="colorOnPrimary">@color/colorOnPrimary</item>
-        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/shark</item>
+        <item name="colorPrimaryDark">@color/shark</item>
+        <item name="colorAccent">@color/athens_gray</item>
+        <item name="colorOnPrimary">@color/athens_gray</item>
+        <item name="colorControlHighlight">@color/shark</item>
+        <item name="colorControlNormal">@color/athens_gray</item>
+
+        <item name="android:windowBackground">@color/shark</item>
+        <item name="android:textColor">@color/athens_gray</item>
+        <item name="android:fontFamily">@font/google_sans_medium</item>
 
         <!-- Navigation Drawer -->
-        <item name="colorNavigationItem">@color/menu_item_color_state</item>
-        <item name="colorNavigationItemSelected">@color/colorWhite</item>
+        <item name="colorStateNavigationItem">@color/menu_item_color_state</item>
+        <item name="colorNavigationItemNormal">@color/athens_gray</item>
+        <item name="colorNavigationItemSelected">@color/tonys_pink</item>
+        <item name="colorNavigationItemBackgroundSelected">@color/don_juan</item>
+        <item name="colorNavigationItemBackgroundPressed">@color/mako</item>
         <item name="drawableNavigationItemBackground">@drawable/menu_background_color_state</item>
+        <item name="android:listDivider">@color/shuttle_gray</item>
     </style>
 
     <style name="TransparentView">
@@ -19,12 +28,19 @@
     </style>
 
     <style name="Widget.Custom.NavigationView" parent="Widget.Design.NavigationView">
-        <item name="itemIconTint">?attr/colorNavigationItem</item>
-        <item name="itemTextColor">?attr/colorNavigationItem</item>
+        <item name="itemIconTint">?attr/colorStateNavigationItem</item>
+        <item name="itemTextAppearance">@style/TextAppearance.Custom.Navigation.Item</item>
+        <item name="itemTextColor">?attr/colorStateNavigationItem</item>
         <item name="itemBackground">?attr/drawableNavigationItemBackground</item>
     </style>
 
-    <!--<item name="itemHorizontalPadding">@dimen/navigation_item_padding</item>
-        <item name="elevation">@dimen/navigation_drawer_elevation</item>-->
+    <style name="TextAppearance.Custom.Normal" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/athens_gray</item>
+        <item name="android:fontFamily">@font/google_sans_medium</item>
+    </style>
+
+    <style name="TextAppearance.Custom.Navigation.Item" parent="TextAppearance.Custom.Normal">
+        <item name="android:textSize">14dp</item>
+    </style>
 
 </resources>

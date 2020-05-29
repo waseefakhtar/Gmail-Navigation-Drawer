@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         navigation_view.setNavigationItemSelectedListener{
             when (it.itemId) {
-                R.id.nav_home -> {
+                R.id.nav_all_inboxes -> {
                     true
                 }
             }

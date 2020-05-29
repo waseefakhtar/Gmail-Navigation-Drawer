@@ -2,35 +2,85 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <group android:checkableBehavior="single">
+    <group
+        android:id="@+id/group_one"
+        android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-        <item
-            android:id="@+id/nav_tools"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/menu_tools" />
+            android:id="@+id/nav_all_inboxes"
+            android:icon="@drawable/ic_all_inbox_24px"
+            android:title="All Inboxes" />
     </group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="@string/menu_share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="@string/menu_send" />
-        </menu>
-    </item>
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group_two">
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@drawable/ic_inbox_24px"
+            android:title="Inbox"
+            android:checked="true" />
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group_three">
+        <item
+            android:id="@+id/nav_starred"
+            android:icon="@drawable/ic_star_outline_24px"
+            android:title="Starred" />
+        <item
+            android:id="@+id/nav_snoozed"
+            android:icon="@drawable/ic_schedule_24px"
+            android:title="Snoozed" />
+        <item
+            android:id="@+id/nav_important"
+            android:icon="@drawable/ic_label_24px"
+            android:title="Important" />
+        <item
+            android:id="@+id/nav_sent"
+            android:icon="@drawable/ic_send_24px"
+            android:title="Sent" />
+        <item
+            android:id="@+id/nav_drafts"
+            android:icon="@drawable/ic_insert_drive_file_24px"
+            android:title="Drafts" />
+        <item
+            android:id="@+id/nav_all_mail"
+            android:icon="@drawable/ic_mail_24px"
+            android:title="All Mail" />
+        <item
+            android:id="@+id/nav_spam"
+            android:icon="@drawable/ic_report_24px"
+            android:title="Spam" />
+        <item
+            android:id="@+id/nav_trash"
+            android:icon="@drawable/ic_delete_sweep_24px"
+            android:title="Trash" />
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group_four">
+        <item
+            android:id="@+id/nav_create_new"
+            android:icon="@drawable/ic_add_24px"
+            android:title="Create new" />
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group_five">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_24px"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback_24px"
+            android:title="Send feedback" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help_outline_24px"
+            android:title="Help" />
+    </group>
 </menu>

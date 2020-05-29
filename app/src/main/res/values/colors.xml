@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorOnPrimary">#336200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
-    <color name="colorWhite">#FFFFFF</color>
+    <color name="shark">#202124</color>
+    <color name="athens_gray">#e8e9ec</color>
+    <color name="tonys_pink">#e49085</color>
+    <color name="don_juan">#594645</color>
+    <color name="shuttle_gray">#606367</color>
+    <color name="mako">#3d4043</color>
 </resources>

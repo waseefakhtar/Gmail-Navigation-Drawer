@@ -3,7 +3,7 @@
     <item
         android:right="8dp">
         <shape android:shape="rectangle">
-            <solid android:color="@color/colorOnPrimary" />
+            <solid android:color="?attr/colorNavigationItemBackgroundSelected" />
             <corners
                 android:bottomRightRadius="50dp"
                 android:topRightRadius="50dp"
