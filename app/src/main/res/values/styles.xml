@@ -23,10 +23,6 @@
         <item name="android:listDivider">@color/shuttle_gray</item>
     </style>
 
-    <style name="TransparentView">
-        <item name="background">@android:color/transparent</item>
-    </style>
-
     <style name="Widget.Custom.NavigationView" parent="Widget.Design.NavigationView">
         <item name="itemIconTint">?attr/colorStateNavigationItem</item>
         <item name="itemTextAppearance">@style/TextAppearance.Custom.Navigation.Item</item>
