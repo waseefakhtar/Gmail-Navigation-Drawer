@@ -30,7 +30,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:clipToPadding="false"
-        android:background="@color/shark_light"
+        app:itemBackground="@drawable/menu_background_color_state"
         app:menu="@menu/main_menu"
         app:headerLayout="@layout/nav_header_main"
         />

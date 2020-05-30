@@ -2,14 +2,14 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/shark</item>
-        <item name="colorPrimaryDark">@color/shark</item>
+        <item name="colorPrimary">@color/shark_light</item>
+        <item name="colorPrimaryDark">@color/shark_light</item>
         <item name="colorAccent">@color/athens_gray</item>
         <item name="colorOnPrimary">@color/athens_gray</item>
-        <item name="colorControlHighlight">@color/shark</item>
+        <item name="colorControlHighlight">@color/shark_light</item>
         <item name="colorControlNormal">@color/athens_gray</item>
 
-        <item name="android:windowBackground">@color/shark</item>
+        <item name="android:windowBackground">@color/shark_light</item>
         <item name="android:textColor">@color/athens_gray</item>
         <item name="android:fontFamily">@font/google_sans_medium</item>
 
