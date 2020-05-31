@@ -5,7 +5,6 @@
         <item name="colorPrimary">@color/shark</item>
         <item name="colorPrimaryDark">@color/shark</item>
         <item name="colorAccent">@color/athens_gray</item>
-        <item name="colorOnPrimary">@color/athens_gray</item>
         <item name="colorControlHighlight">@color/shark_light</item>
         <item name="colorControlNormal">@color/athens_gray</item>
 
@@ -19,7 +18,7 @@
         <item name="colorNavigationItemSelected">@color/tonys_pink</item>
         <item name="colorNavigationItemBackgroundSelected">@color/don_juan</item>
         <item name="colorNavigationItemBackgroundPressed">@color/mako</item>
-        <item name="drawableNavigationItemBackground">@drawable/menu_background_color_state</item>
+        <item name="drawableNavigationItemBackground">@drawable/menu_item_background_color_state</item>
         <item name="android:listDivider">@color/shuttle_gray</item>
     </style>
 
@@ -30,12 +29,9 @@
         <item name="itemBackground">?attr/drawableNavigationItemBackground</item>
     </style>
 
-    <style name="TextAppearance.Custom.Normal" parent="TextAppearance.AppCompat">
+    <style name="TextAppearance.Custom.Navigation.Item" parent="TextAppearance.AppCompat">
         <item name="android:textColor">@color/athens_gray</item>
         <item name="android:fontFamily">@font/google_sans_medium</item>
-    </style>
-
-    <style name="TextAppearance.Custom.Navigation.Item" parent="TextAppearance.Custom.Normal">
         <item name="android:textSize">14dp</item>
     </style>
 
