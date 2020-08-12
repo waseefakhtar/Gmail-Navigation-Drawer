@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?attr/colorNavigationItemBackgroundPressed">
     <item
+        android:id="@android:id/mask"
         android:right="8dp">
         <shape android:shape="rectangle">
             <solid android:color="?attr/colorNavigationItemBackgroundPressed" />
@@ -10,4 +12,4 @@
                 />
         </shape>
     </item>
-</layer-list>
+</ripple>
