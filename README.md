@@ -4,5 +4,5 @@
 
 ## Tutorial
  
-Part I: https://www.waseefakhtar.com/android/android-material-component-creating-a-gmail-like-navigation-drawer-part-i/v </br>
-Part II: https://proandroiddev.com/android-material-component-gmail-navigation-drawer-ripple-6ca62193befa
+Part I: https://www.waseefakhtar.com/android/android-material-component-creating-a-gmail-like-navigation-drawer-part-i/ </br>
+Part II: https://www.waseefakhtar.com/android/android-material-component-creating-a-gmail-like-navigation-drawer-part-ii-adding-that-final-ripple-touch/
